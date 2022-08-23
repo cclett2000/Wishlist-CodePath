@@ -4,7 +4,7 @@ Submitted by: **Charles Lett Jr.**
 
 **Wishlist-CodePath** is a wishlist app that helps the user keep track of what they want to buy.
 
-Time spent: **17** hours spent in total
+Time spent: **8** hours spent in total
 
 ## Required Features
 
