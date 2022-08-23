@@ -73,6 +73,8 @@ class MainActivity : AppCompatActivity() {
 
                     val adapter = CustomAdapter(listData)   // pass listData to customAdapter
                     recyclerView.adapter = adapter          // set adapter with recyclerView
+                    recyclerView.scrollToPosition(listData.size - 1)
+
                 } else {
                     // THE BEAR SPEAKETH
                     Toast.makeText(this, "Please Fill All Fields", Toast.LENGTH_SHORT)
