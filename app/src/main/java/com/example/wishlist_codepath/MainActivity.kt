@@ -32,8 +32,6 @@ class MainActivity : AppCompatActivity() {
         val price = findViewById<EditText>(R.id.input_price_info)
 
        // to invoke easter egg type this into item: Here's that Easter Egg For You PAPI! <3
-       // Log.d("EASTEREGG","EE Hash" + generateMD5("Here's that Easter Egg For You PAPI! <3"))
-
 
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)   // get recyclerView
         val listData = ArrayList<Model>()                                  // ArrayList of model class
